@@ -1,9 +1,9 @@
 openapi: 3.0.0
 servers:
-  - url: //petstore.swagger.io/v2
-    description: Default server
-  - url: //petstore.swagger.io/sandbox
-    description: Sandbox server
+  - url: //api-stg.trimble.com/t/trimble.com/gsku-services-dev/1.0
+    description: Dev server
+  - url: //api-stg.trimble.com/t/trimble.com/gsku-services/1.0
+    description: Staging server
 info:
   description: |
     This is a sample server Petstore server.
